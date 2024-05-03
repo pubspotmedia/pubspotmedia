@@ -1,19 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Utama</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pubspot Media Repository Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    /* Set body to fullscreen and disable scrolling */
+    body {
+      overflow: hidden;
+      height: 100vh;
+      width: 100%;
+    }
+
+    /* Set fullscreen container */
+    .fullscreen-container {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url('images/background-image.jpg'); /* Path to image in the same repository */
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* Content styling */
+    .content {
+      text-align: center;
+      color: #fff;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Selamat Datang di Halaman Utama</h1>
-    </header>
-    <main>
-        <p>Ini adalah halaman utama situs web saya.</p>
-    </main>
-    <footer>
-        <p>&copy; 2024 Nama Anda</p>
-    </footer>
+
+  <!-- Fullscreen Container with Background Image from GitHub -->
+  <div class="fullscreen-container">
+
+    <!-- Content -->
+    <div class="content">
+      <h1>Pubspot Media</h1>
+      <p>Repository Media Digital.</p>
+    </div>
+
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
